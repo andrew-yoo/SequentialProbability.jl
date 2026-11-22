@@ -12,7 +12,7 @@ The [Distributions.jl](https://juliastats.org/Distributions.jl/stable/) dependen
 
 
 ```julia
-using SPRT, Distributions
+using SequentialProbability, Distributions
 
 res = sprt([18,15,18,23,26,30,36], SPRTIn(Normal(10,10), Normal(20,10)); α=0.05, β=0.05)
 ```
